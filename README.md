@@ -1,3 +1,5 @@
+<img width="474" height="196" alt="Screenshot 2026-04-29 034545" src="https://github.com/user-attachments/assets/71915bba-cbc9-464f-9eda-2441b4a77758" />
+
 # Linux Server Hardening Project
 
 ## 📌 Overview
