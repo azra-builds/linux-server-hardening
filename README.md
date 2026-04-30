@@ -123,9 +123,102 @@ Successfully installed and configured SSH service on Linux and verified secure l
 
 ## 🔥 3. Firewall Setup (UFW)
 
-## 🔐 SSH Setup & Basic Security
-
+## 🔥 Linux Firewall Setup (UFW)
 ## 📌 Overview
-Installed and configured SSH for secure access.
+This project demonstrates how to configure a firewall on Linux using UFW to control network access and improve system security.
 
-🧪 Commands
+--
+
+## 🎯 Objectives
+- Install and configure UFW firewall
+- Allow essential services (SSH, HTTP)
+- Enable firewall protection
+- Verify firewall rules
+
+---
+
+## ⚙️ Tools Used
+- Linux (Kali/Ubuntu)
+- UFW Firewall
+- Terminal (CLI)
+
+---
+
+## 🧪 Steps Performed
+1. Install UFW
+sudo apt update
+sudo apt install ufw -y
+
+---
+
+2. Check Firewall Status
+sudo ufw status
+
+✔ Expected: Status: inactive
+
+---
+
+## ⚠️ IMPORTANT
+Before enabling firewall, always allow SSH to avoid losing access.
+
+---
+
+## 3. Allow SSH
+sudo ufw allow ssh
+---
+## 4. Enable Firewall
+- sudo ufw enable
+
+When asked:
+
+- Proceed? (y/n)
+
+## 👉 Type: y
+
+## 5. Allow HTTP Traffic
+sudo ufw allow http
+---
+## 6. Check All Rules
+sudo ufw status verbose
+
+✔ Expected:
+
+SSH ALLOW
+HTTP ALLOW
+Status: active
+---
+## 7. (Optional) Block a Port
+sudo ufw deny 23
+---
+## 📸 Screenshots
+- UFW installation
+- Firewall status (inactive)
+- SSH allow rule
+- Firewall enabled
+- Final rules (status verbose)
+
+---
+<img width="847" height="609" alt="Screenshot 2026-05-01 035407" src="https://github.com/user-attachments/assets/b2c06872-caa6-4412-a2fe-e9971804c1cc" />
+---
+<img width="265" height="74" alt="Screenshot 2026-05-01 033058" src="https://github.com/user-attachments/assets/b46c7097-2065-4266-be76-2376dc43c222" />
+---
+<img width="275" height="85" alt="Screenshot 2026-05-01 033114" src="https://github.com/user-attachments/assets/1b03d2ae-e372-493a-91f7-4c7121c8d471" />
+---
+<img width="682" height="85" alt="Screenshot 2026-05-01 033136" src="https://github.com/user-attachments/assets/5adb838c-9bcf-4972-85d6-7e33db8367cf" />
+---
+<img width="591" height="217" alt="Screenshot 2026-05-01 033217" src="https://github.com/user-attachments/assets/66726acb-255d-416e-84cb-2c72ba5ab231" />
+
+---
+
+## 🔐 Key Learning
+- Firewall controls system network access
+- UFW simplifies Linux firewall management
+- SSH must be allowed before enabling firewall
+- Rules define allowed and blocked traffic
+
+----
+
+## 📌 Outcome
+Successfully configured a Linux firewall to allow SSH and HTTP traffic while securing all other incoming connections.
+
+
