@@ -24,6 +24,7 @@ This project demonstrates basic Linux user management using terminal commands.
 ## 📌 Outcome
 Successfully created and managed Linux user accounts using command-line tools.
 
+---
 
 ## 🔐 2. SSH Setup
 
@@ -117,3 +118,14 @@ Tested SSH connection on local machine.
 
 ## 📌 Outcome
 Successfully installed and configured SSH service on Linux and verified secure local access using SSH protocol.
+
+---
+
+## 🔥 3. Firewall Setup (UFW)
+
+## 🔐 SSH Setup & Basic Security
+
+## 📌 Overview
+Installed and configured SSH for secure access.
+
+🧪 Commands
