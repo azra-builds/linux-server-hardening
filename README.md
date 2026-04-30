@@ -1,28 +1,20 @@
-# Linux Server Hardening Project
+# Linux User Management Project
 
 ## 📌 Overview
-Created and managed users in Linux using terminal commands.
----
+This project demonstrates basic Linux user management using terminal commands.
 
 ## ⚙️ Steps Performed
-- Created a user using useradd
-- Set password for the user
-- Verified user in system files
-
----
+- Created a user using useradd  
+- Set password for the user  
+- Verified user in system files  
 
 ## 🧪 Commands Used
-- sudo useradd testuser
-- sudo passwd testuser
-- cat /etc/passwd | grep testuser
-
----
+- sudo useradd testuser  
+- sudo passwd testuser  
+- cat /etc/passwd | grep testuser  
 
 ## 📸 Screenshots
-<img width="716" height="277" alt="Screenshot 2026-05-01 022356" src="https://github.com/user-attachments/assets/8ce1cd40-5e4d-40cd-bf7e-6d1ee7746980" />
-<img width="480" height="44" alt="Screenshot 2026-05-01 022435" src="https://github.com/user-attachments/assets/160443ea-d3c6-4e3c-919a-c5ea1fb9b444" />
-
----
+<img width="524" height="207" alt="Screenshot 2026-05-01 030535" src="https://github.com/user-attachments/assets/3eae7b3a-9a6a-4d73-9bac-aa39a14bdd09" />
 
 ## 📌 Outcome
-A secure Linux server environment with hardened SSH and running web server.
+Successfully created and managed Linux user accounts using command-line tools.
