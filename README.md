@@ -103,7 +103,9 @@ Tested SSH connection on local machine.
 - systemctl status ssh (active running)
 - SSH login attempt (localhost prompt)
 <img width="688" height="186" alt="Screenshot 2026-05-01 031523" src="https://github.com/user-attachments/assets/657aec4c-066e-4b4b-aef0-f1c0d9ee5862" />
+---
 <img width="759" height="352" alt="Screenshot 2026-05-01 031550" src="https://github.com/user-attachments/assets/4ecdd2cf-025c-4f95-86ea-29d99d6bfc61" />
+---
 <img width="739" height="191" alt="Screenshot 2026-05-01 031640" src="https://github.com/user-attachments/assets/038b184b-11b6-4477-95c1-f19e6c6aa418" />
 
 ---
@@ -127,7 +129,7 @@ Successfully installed and configured SSH service on Linux and verified secure l
 ## 📌 Overview
 This project demonstrates how to configure a firewall on Linux using UFW to control network access and improve system security.
 
---
+---
 
 ## 🎯 Objectives
 - Install and configure UFW firewall
@@ -146,13 +148,13 @@ This project demonstrates how to configure a firewall on Linux using UFW to cont
 
 ## 🧪 Steps Performed
 1. Install UFW
-sudo apt update
-sudo apt install ufw -y
+- sudo apt update
+- sudo apt install ufw -y
 
 ---
 
 2. Check Firewall Status
-sudo ufw status
+- sudo ufw status
 
 ✔ Expected: Status: inactive
 
@@ -164,8 +166,10 @@ Before enabling firewall, always allow SSH to avoid losing access.
 ---
 
 ## 3. Allow SSH
-sudo ufw allow ssh
+- sudo ufw allow ssh
+
 ---
+
 ## 4. Enable Firewall
 - sudo ufw enable
 
@@ -176,20 +180,26 @@ When asked:
 ## 👉 Type: y
 
 ## 5. Allow HTTP Traffic
-sudo ufw allow http
+- sudo ufw allow http
+
 ---
+
 ## 6. Check All Rules
-sudo ufw status verbose
+- sudo ufw status verbose
 
 ✔ Expected:
 
 SSH ALLOW
 HTTP ALLOW
 Status: active
+
 ---
+
 ## 7. (Optional) Block a Port
 sudo ufw deny 23
+
 ---
+
 ## 📸 Screenshots
 - UFW installation
 - Firewall status (inactive)
@@ -198,6 +208,7 @@ sudo ufw deny 23
 - Final rules (status verbose)
 
 ---
+
 <img width="847" height="609" alt="Screenshot 2026-05-01 035407" src="https://github.com/user-attachments/assets/b2c06872-caa6-4412-a2fe-e9971804c1cc" />
 ---
 <img width="265" height="74" alt="Screenshot 2026-05-01 033058" src="https://github.com/user-attachments/assets/b46c7097-2065-4266-be76-2376dc43c222" />
