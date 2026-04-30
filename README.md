@@ -19,8 +19,8 @@ Created and managed users in Linux using terminal commands.
 ---
 
 ## 📸 Screenshots
-<img width="480" height="44" alt="Screenshot 2026-05-01 022435" src="https://github.com/user-attachments/assets/160443ea-d3c6-4e3c-919a-c5ea1fb9b444" />
 <img width="716" height="277" alt="Screenshot 2026-05-01 022356" src="https://github.com/user-attachments/assets/8ce1cd40-5e4d-40cd-bf7e-6d1ee7746980" />
+<img width="480" height="44" alt="Screenshot 2026-05-01 022435" src="https://github.com/user-attachments/assets/160443ea-d3c6-4e3c-919a-c5ea1fb9b444" />
 
 ---
 
