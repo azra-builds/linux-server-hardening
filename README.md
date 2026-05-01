@@ -73,7 +73,7 @@ ssh localhost
 sudo apt install openssh-server -y
 ```
 <img width="714" height="85" alt="Screenshot 2026-05-01 024132" src="https://github.com/user-attachments/assets/1d5b6186-daaa-41cb-a2ec-3eb75c2282ad" />
----
+
 ```bash
  sudo systemctl status ssh
 ```
