@@ -142,20 +142,18 @@ sudo systemctl status apache2
 http://localhost/
 
 ## 📸 SCREENSHOTS
-```sudo apt install apache2 -y
+```bash
+sudo apt install apache2 -y
 ```
-
+<img width="798" height="465" alt="Screenshot 2026-05-01 040921" src="https://github.com/user-attachments/assets/fd2fafb5-e2a2-4805-bd63-d9914d70700a" />
 ---
-
-<img width="798" height="465" alt="Screenshot 2026-05-01 040921" src="https://github.com/user-attachments/assets/9ed32dbf-9bfb-46b6-88cf-1ad098f48f2b" />
-
----
-
-```sudo systemctl status apache2
+```bash
+sudo systemctl status apache2
 ```
-
+<img width="812" height="115" alt="Screenshot 2026-05-01 041111" src="https://github.com/user-attachments/assets/96995e10-bedd-4d47-af51-4b4d84284780" />
 ---
-<img width="754" height="109" alt="Screenshot 2026-05-01 043624" src="https://github.com/user-attachments/assets/b061ecde-ebc5-4ad7-a90b-4961bf34fae6" />
+
+
 
 ## 3. Browser output
 http://localhost/
