@@ -150,9 +150,8 @@ http://localhost/
 
 ---
 
-```sudo systemctl status apache2```
-
----
+```sudo systemctl status apache2
+```
 
 <img width="754" height="109" alt="Screenshot 2026-05-01 043624" src="https://github.com/user-attachments/assets/b061ecde-ebc5-4ad7-a90b-4961bf34fae6" />
 
