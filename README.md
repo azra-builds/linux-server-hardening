@@ -1,4 +1,4 @@
-# 💻 Linux System Administration – Hands-on Portfolio
+## 💻 Linux System Administration – Hands-on Portfolio
 
 ![Linux](https://img.shields.io/badge/Linux-System%20Administration-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-Server-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
