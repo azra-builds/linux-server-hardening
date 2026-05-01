@@ -1,22 +1,39 @@
-## 💻 Linux System Administration Projects
-## 📌 Overview
+# 💻 Linux System Administration – Hands-on Portfolio
 
-This repository contains Linux administration projects including user management, SSH setup, and firewall configuration.
+![Linux](https://img.shields.io/badge/Linux-System%20Administration-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-Server-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Apache](https://img.shields.io/badge/Apache-Web%20Server-D22128?style=for-the-badge&logo=apache&logoColor=white)
+![SSH](https://img.shields.io/badge/SSH-Secure%20Access-blue?style=for-the-badge)
+![Firewall](https://img.shields.io/badge/UFW-Firewall-green?style=for-the-badge)
 
-## 👤 1. User Management
+---
 
-## 📌 Overview
-This project demonstrates basic Linux user management using terminal commands.
+## 👨‍💻 About This Project
 
-## ⚙️ Steps Performed
-- Created a user using useradd  
-- Set password for the user  
-- Verified user in system files  
+This portfolio demonstrates hands-on Linux System Administration skills through practical lab work including user management, SSH configuration, firewall setup, and Apache web server deployment.
 
-## 🧪 Commands Used
-- sudo useradd testuser  
-- sudo passwd testuser  
-- cat /etc/passwd | grep testuser  
+---
+
+## 🎯 Core Objectives
+
+- User management in Linux  
+- Secure SSH configuration  
+- Firewall setup using UFW  
+- Apache web server deployment  
+- Linux command-line operations  
+
+---
+
+# 👤 1. User Management
+
+## 🎯 Objective
+Create and manage Linux users using terminal commands.
+
+## 🧪 Commands
+```bash
+sudo useradd testuser
+sudo passwd testuser
+cat /etc/passwd | grep testuser
 
 ## 📸 Screenshots
 <img width="524" height="207" alt="Screenshot 2026-05-01 030535" src="https://github.com/user-attachments/assets/3eae7b3a-9a6a-4d73-9bac-aa39a14bdd09" />
