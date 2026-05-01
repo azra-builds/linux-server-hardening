@@ -74,11 +74,13 @@ sudo apt install openssh-server -y
 ```
 <img width="714" height="85" alt="Screenshot 2026-05-01 024132" src="https://github.com/user-attachments/assets/1d5b6186-daaa-41cb-a2ec-3eb75c2282ad" />
 ---
-```bash sudo systemctl status ssh
+```bash
+ sudo systemctl status ssh
 ```
 <img width="759" height="352" alt="Screenshot 2026-05-01 031550" src="https://github.com/user-attachments/assets/68129bb7-63bd-495b-b764-65132225c358" />
 ---
-```bash ssh localhost
+```bash
+ ssh localhost
 ```
 <img width="739" height="191" alt="Screenshot 2026-05-01 031640" src="https://github.com/user-attachments/assets/1be1f417-7037-48e8-b371-edfce52bd51c" />
 ---
