@@ -113,16 +113,19 @@ sudo ufw status
 ```
 <img width="265" height="74" alt="Screenshot 2026-05-01 033058" src="https://github.com/user-attachments/assets/108d96e0-8d2c-409e-81db-120fcc237f2e" />
 ---
+
 ```bash
 sudo ufw allow ssh
 ```
 <img width="275" height="85" alt="Screenshot 2026-05-01 033114" src="https://github.com/user-attachments/assets/31bffde0-26dc-4f36-9c55-3d3d1740c66c" />
 ---
+
 ```bash
 sudo ufw enable
 ```
 <img width="682" height="85" alt="Screenshot 2026-05-01 033136" src="https://github.com/user-attachments/assets/7ad37209-b338-4779-be69-9d4b24775ab6" />
 ---
+
 ```bash
 sudo ufw status verbose
 ```
