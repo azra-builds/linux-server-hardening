@@ -26,9 +26,6 @@ This portfolio demonstrates hands-on Linux System Administration skills through 
 
 # 👤 1. User Management
 
-## 📸 Screenshot
-<img width="524" height="207" alt="Screenshot 2026-05-01 030535" src="https://github.com/user-attachments/assets/b231ac32-bc78-432c-96c4-139fdd2a2bbc" />
-
 ## 🎯 Objective
 Create and manage Linux users using terminal commands.
 
@@ -38,6 +35,10 @@ sudo useradd testuser
 sudo passwd testuser
 cat /etc/passwd | grep testuser
 
-## 📌 Outcome
+📸 Screenshot
+
+👉 Add your screenshot here
+
+📌 Outcome
 
 Successfully created and managed Linux user accounts using command-line tools.
