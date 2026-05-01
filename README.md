@@ -232,4 +232,64 @@ sudo ufw deny 23
 ## 📌 Outcome
 Successfully configured a Linux firewall to allow SSH and HTTP traffic while securing all other incoming connections.
 
+---
 
+## 🌐 Apache Web Server Project
+
+## 📌 Overview
+This project demonstrates how to install and configure Apache web server on Linux and host a basic web page.
+
+---
+
+## 🎯 Objectives
+- Install Apache2  
+- Start and enable Apache service  
+- Create custom web page  
+- Access server via browser  
+
+---
+
+## ⚙️ Tools Used
+- Linux (Kali/Ubuntu)  
+- Apache2  
+- Terminal (CLI)  
+
+---
+
+## 🧪 Steps Performed
+
+### 1. Install Apache
+sudo apt install apache2 -y
+
+### 2. Start Service
+sudo systemctl start apache2  
+sudo systemctl enable apache2  
+
+### 3. Create Web Page
+sudo nano /var/www/html/index.html  
+
+### 4. Restart Server
+sudo systemctl restart apache2  
+
+### 5. Test in Browser
+http://localhost  
+
+---
+
+## 📸 Screenshots
+
+<img width="754" height="109" alt="Screenshot 2026-05-01 043624" src="https://github.com/user-attachments/assets/ce280481-9db7-4e47-ba52-f577267a4ac1" />
+---
+<img width="786" height="341" alt="Screenshot 2026-05-01 070725" src="https://github.com/user-attachments/assets/b5b831aa-9866-4190-aa4f-a75906a0c467" />
+
+
+## 🧠 Key Learning
+- Apache is used to host websites  
+- index.html is the main web file  
+- Browser is used to access server  
+- Linux can act as a web server  
+
+---
+
+## 📌 Outcome
+Successfully deployed Apache web server and hosted a custom HTML page on localhost.
