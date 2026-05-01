@@ -41,7 +41,7 @@ cat /etc/passwd | grep testuser
 
 <img width="524" height="207" alt="Screenshot 2026-05-01 030535" src="https://github.com/user-attachments/assets/6fd45a75-a44c-4c47-a82a-ed27cbe13909" />
 
-##📌 Outcome
+## 📌 Outcome
 
 Successfully created and managed Linux user accounts using command-line tools.
 
@@ -69,18 +69,21 @@ ssh localhost
 
 ## 📸 Screenshot
 ---
-```sudo apt install openssh-server -y```
+```bash
+sudo apt install openssh-server -y
+```
 <img width="714" height="85" alt="Screenshot 2026-05-01 024132" src="https://github.com/user-attachments/assets/1d5b6186-daaa-41cb-a2ec-3eb75c2282ad" />
-
-```sudo systemctl status ssh```
+---
+```bash sudo systemctl status ssh
+```
 <img width="759" height="352" alt="Screenshot 2026-05-01 031550" src="https://github.com/user-attachments/assets/68129bb7-63bd-495b-b764-65132225c358" />
-
-```ssh localhost```
+---
+```bash ssh localhost
+```
 <img width="739" height="191" alt="Screenshot 2026-05-01 031640" src="https://github.com/user-attachments/assets/1be1f417-7037-48e8-b371-edfce52bd51c" />
-
 ---
 
-📌 Outcome
+## 📌 Outcome
 
 SSH service successfully installed, enabled, and tested locally.
 
@@ -103,19 +106,28 @@ sudo ufw allow http
 sudo ufw status verbose
 ```
 ## 📸 SCREENSHOTS 
-```sudo ufw status```
+```bash
+sudo ufw status
+```
 <img width="265" height="74" alt="Screenshot 2026-05-01 033058" src="https://github.com/user-attachments/assets/108d96e0-8d2c-409e-81db-120fcc237f2e" />
-
-```sudo ufw allow ssh```
+---
+```bash
+sudo ufw allow ssh
+```
 <img width="275" height="85" alt="Screenshot 2026-05-01 033114" src="https://github.com/user-attachments/assets/31bffde0-26dc-4f36-9c55-3d3d1740c66c" />
-
-```sudo ufw enable```
+---
+```bash
+sudo ufw enable
+```
 <img width="682" height="85" alt="Screenshot 2026-05-01 033136" src="https://github.com/user-attachments/assets/7ad37209-b338-4779-be69-9d4b24775ab6" />
-
-```sudo ufw status verbose```
+---
+```bash
+sudo ufw status verbose
+```
 <img width="591" height="217" alt="Screenshot 2026-05-01 033217" src="https://github.com/user-attachments/assets/39479992-18c2-453d-a2f1-c70975193f6f" />
+---
 
-📌 Outcome
+## 📌 Outcome
 
 Firewall successfully configured to allow SSH and HTTP traffic.
 
