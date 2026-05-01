@@ -150,6 +150,7 @@ sudo apt install apache2 -y
 ```bash
 sudo systemctl status apache2
 ```
+---
 <img width="812" height="115" alt="Screenshot 2026-05-01 041111" src="https://github.com/user-attachments/assets/96995e10-bedd-4d47-af51-4b4d84284780" />
 ---
 
