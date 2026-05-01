@@ -30,15 +30,17 @@ This portfolio demonstrates hands-on Linux System Administration skills through 
 Create and manage Linux users using terminal commands.
 
 ## 🧪 Commands
+
 ```bash
 sudo useradd testuser
 sudo passwd testuser
 cat /etc/passwd | grep testuser
+```
 
-📸 Screenshot
+## 📸 Screenshot
 
-👉 Add your screenshot here
+<img width="524" height="207" alt="Screenshot 2026-05-01 030535" src="https://github.com/user-attachments/assets/6fd45a75-a44c-4c47-a82a-ed27cbe13909" />
 
-📌 Outcome
+##📌 Outcome
 
 Successfully created and managed Linux user accounts using command-line tools.
